@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, DiplomacyActivity!</string>
+    <string name="app_name">Diplomacy</string>
+    <string name="game_name">Game name</string>
+    <string name="password">Password</string>
+    <string name="map">Map</string>
+    <string name="bet_size">Bet size</string>
+    <string name="country_assignment">Country assignment</string>
+    <string name="pot_type">Pot type</string>
+    <string name="anonymous_players">Anonymous players</string>
+    <string name="messaging">Messaging</string>
+
+</resources>

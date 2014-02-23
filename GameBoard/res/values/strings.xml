@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, GameBoardActivity!</string>
+    <string name="app_name">GameBoard</string>
+    <string name="games_list">Games List</string>
+    <string name="choose_type">Choose type</string>
+    <string name="login">Login</string>
+    <string name="new_diplomacy_game">New diplomacy game</string>
+    <string name="new_citadels_game">New Citadels game</string>
+	<string name="login">Login</string>
+	<string name="new_user">New user</string>
+</resources>

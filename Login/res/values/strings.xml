@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="login_failed">Login failed</string>
+    <string name="gameslist">Games list</string>
+    <string name="choosenewgametype">Choose new game type</string>
+    <string name="new_user">New user</string>
+	<string name="email">Email</string>
+	<string name="user_name">Username</string>
+	<string name="user_creation_failed">There has been an error while creating the user. It already exists</string>
+	<string name="cancel">Cancel</string>
+</resources>

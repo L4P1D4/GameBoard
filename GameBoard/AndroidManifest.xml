@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rcgstudio.gameboard"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="4" />
+
+    <application
+        android:name="com.rcgstudio.core.entities.GameBoardApplication"
+        android:icon="@drawable/ic_crown"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.rcgstudio.gameboard.GameBoardActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.rcgstudio.base.login.LoginAct"
+            android:label="@string/login" >
+        </activity>
+        <activity
+            android:name="com.rcgstudio.base.login.NewUserAct"
+            android:label="@string/new_user" >
+        </activity>          
+        <activity
+            android:name="com.rcgstudio.baseapplication.activities.UserGamesListAct"
+            android:label="@string/games_list" >
+        </activity>
+        <activity
+            android:name="com.rcgstudio.baseapplication.activities.ChooseNewGameTypeAct"
+            android:label="@string/choose_type" >
+        </activity>
+        <activity
+            android:name="com.rcgstudio.baseapplication.activities.ChooseJoinGameTypeAct"
+            android:label="@string/choose_type" >
+        </activity>
+        <activity
+            android:name="com.rcgstudio.diplomacy.activities.DiplomacyGameConfigurationAct"
+            android:label="@string/new_diplomacy_game" >
+        </activity>
+        <activity
+            android:name="com.rcgstudio.citadels.activities.CitadelsGameConfigurationAct"
+            android:label="@string/new_citadels_game" >
+        </activity>
+        <activity
+            android:name="com.rcgstudio.citadels.activities.CitadelsGameWaitingAct"
+            android:label="@string/new_citadels_game" >
+        </activity>
+        <activity
+            android:name="com.rcgstudio.tictactoe.activities.TicTacToeGameAct"
+            android:label="@string/new_citadels_game" >
+        </activity>
+                <activity
+            android:name="com.rcgstudio.tictactoe.activities.TicTacToeGameConfigurationAct"
+            android:label="@string/new_citadels_game" >
+        </activity>
+        <activity
+            android:name="com.rcgstudio.tictactoe.activities.TicTacToeGameWaitingAct"
+            android:label="@string/new_citadels_game" >
+        </activity>
+        <activity
+            android:name="com.rcgstudio.citadels.activities.CitadelsGameAct"
+            android:label="@string/new_citadels_game" >
+        </activity>
+        <activity
+            android:name="com.rcgstudio.baseapplication.activities.OpenedGamesListAct"
+            android:label="@string/games_list" >
+        </activity>      
+    </application>
+
+</manifest>
